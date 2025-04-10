@@ -26,16 +26,16 @@
                                         <a class="nav-link active" href="#">Home</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
-                                        <ul class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="aboutDropdown">
                                             <li><a class="dropdown-item" href="#">Company</a></li>
                                             <li><a class="dropdown-item" href="#">Team</a></li>
                                             <li><a class="dropdown-item" href="#">Careers</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
-                                        <ul class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="projectsDropdown">
                                             <li><a class="dropdown-item" href="#">Development</a></li>
                                             <li><a class="dropdown-item" href="#">Design</a></li>
                                             <li><a class="dropdown-item" href="#">Consulting</a></li>
@@ -52,10 +52,10 @@
             </div>
         </div>
     </header>
-    <article>
+    <main>
         <div class="container">
             <div class="row">
-                <main class="col-xxl-6 col-xl-8 bg-secondary-subtle">
+                <article class="col-xxl-6 col-xl-8 bg-secondary-subtle">
                     <h4 class="my-0 py-3 text-md-start">Calculate your project</h4>
                     <div class="accordion" id="projectDetails">
                         <div class="accordion-item acc">
@@ -102,9 +102,9 @@
                             <label for="projectPict" class="form-label">Attach photos if any:</label>
                             <input class="form-control form-control-sm" id="projectPict" type="file">
                         </div>
-                        <button type="submit" class="btn btn-primary">Calculate</button>
+                        <button type="submit" class="btn btn-dark">Calculate</button>
                     </form>
-                </main>
+                </article>
                 <aside class="col-xxl-3 col-xl-4 col-lg-12 order-first bg-secondary-subtle px-0">
                     <div id="pictureSliderIndicators" class="carousel slide">
                         <div class="carousel-indicators">
@@ -145,24 +145,25 @@
                             <p class="card-text">
                                 We can help you with that! Our team of experienced interior designers will work with you to create a space that is both functional and beautiful. Whether you're looking to redesign your home, office, or commercial space, we have the expertise to bring your vision to life.
                             </p>
-                            <a href="#" class="btn btn-primary">Visit our partners</a>
+                            <a href="#" class="btn btn-dark">Visit our partners</a>
                         </div>
                     </div>
                 </aside>
             </div>
         </div>
-    </article>
+    </main>
     <footer class="footer bg-secondary py-4">
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <img class="p-0" src="assets/img/buildlab-logo-light.svg" alt="BuildLAB Logo" width="150" height="60" class="mb-3">
+                    <img class="p-0 mb-3" src="assets/img/buildlab-logo-light.svg" alt="BuildLAB Logo" width="150" height="60">
                     <div class="list-group-horizontal float-md-end my-3">
                         <a href="#" class="text-white mx-2"><i class="bi bi-facebook fs-4"></i></a>
                         <a href="#" class="text-white mx-2"><i class="bi bi-twitter fs-4"></i></a>
                         <a href="#" class="text-white mx-2"><i class="bi bi-instagram fs-4"></i></a>
                         <a href="#" class="text-white mx-2"><i class="bi bi-linkedin fs-4"></i></a>
                     </div>
+                </div>
             </div>
         </div>
     </footer>
